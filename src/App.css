@@ -237,6 +237,10 @@ body {
   border: 2px solid black;
 }
 
+.playlist-icons, svg {
+  margin: auto 10px;
+}
+
 .name-wrapper {
   display: flex;
   flex-wrap: wrap;
