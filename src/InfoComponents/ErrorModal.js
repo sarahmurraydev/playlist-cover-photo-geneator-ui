@@ -19,7 +19,7 @@ class ErrorModal extends React.Component {
             <Modal.Body>
                There was an error generating the photo for your playlist:
                 <p className="bold-text modal-playlist-name">{selectedPlaylist.name}</p>
-                You could try again with another playlist, or wait a few mintues and try again with this playlist.
+                You could try again with another playlist, or wait a few minutes and try again with this playlist.
             </Modal.Body>
             <Modal.Footer style={{justifyContent: "center"}}>
                 <Button onClick={handleCloseModal}>OK</Button>

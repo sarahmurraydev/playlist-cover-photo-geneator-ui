@@ -42,7 +42,7 @@ class Main extends React.Component {
             <p className="inline-error">
                 There's been an getting your spotify data, our call to our API's /me endpoint failed. 
                 This could be due to our API or the spotify API. Please check back in a few minutes and try again. 
-                Our sincre apologies. In the meantime, wanna look at some dog photos?
+                Our sincere apologies. In the meantime, wanna look at some dog photos?
                 <br></br>
                 <br></br>
                 <a
