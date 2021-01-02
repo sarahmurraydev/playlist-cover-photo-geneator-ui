@@ -66,5 +66,5 @@ export const faqs = [
 
 
 export const UI_URL = 'https://mosaic-cover-photo-maker.vercel.app/';
-export const API_URL = 'http://spotifymatrixphotomaker.pythonanywhere.com';
+export const API_URL = 'https://spotifymatrixphotomaker.pythonanywhere.com';
 export const SUCCESS = "success";
