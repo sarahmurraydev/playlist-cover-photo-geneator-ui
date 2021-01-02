@@ -14,7 +14,7 @@ class MorePlaylistsButton extends React.Component {
         return <div className="playlist-grid-footer-buttons">
             {isLoadingPlaylistData ? 
                     <Spinner animation="border" role="status" variant="success"/> : 
-                    <button onClick={() => getNextPlaylists(offset)}>
+                    <button onClick={() => getNextPlaylists(offset)} className="green-button-link">
                         Get More of My Playlists
                     </button>
                 }

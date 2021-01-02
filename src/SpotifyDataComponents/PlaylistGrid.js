@@ -27,7 +27,10 @@ class PlaylistGrid extends React.Component {
             return <div>
                 {isLoadingPlaylistData ? 
                     <Spinner animation="border" role="status" variant="success"/> : (
-                        !showPlaylistInlineError ? <button onClick={getMyPlaylists}>Fetch my Playlists</button> : (
+                        !showPlaylistInlineError ? <button 
+                            className="green-button-link" 
+                            onClick={getMyPlaylists}
+                        >Fetch my Playlists</button> : (
                             <p>Sorry! There was an error getting your public playlists. Please try again later.</p>
                         )
                     )
